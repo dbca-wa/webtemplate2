@@ -13,9 +13,9 @@
     "bootstrap-datepicker": "1.9.0",
     "twitter-bootstrap": "^2.1.1",
     "twbs": "0.0.6",
-    "bootstrap": "5.0.2",
+    "bootstrap": "5.3.8",
     "bootstrap-icons": "1.11.2",
-    "@popperjs/core": "2.11.2"
+    "@popperjs/core": "2.11.8"
   },
   "engines": {
     "node": ">= 4.0.0",

@@ -271,7 +271,7 @@
                                    <div class="row">
                                        <div class="col-lg-12">
                                                <h1 id="site-title" class="site-logo">
-                                                  <a href="{% url 'home'%}" style='text-decoration: none'>
+                                                  <a href="{% if logo_url %}{{ logo_url }}{% else %}{% url 'home'%}{% endif %}" style='text-decoration: none'>
 							  <img src='/static/img/parkstay_bookings_logo.png' style='height: 60px; width: auto;' alt="Park Stay - Department of Parks and Wildlife" class="img-responsive"/>
                                                   </a>
                                                </h1>
